@@ -1,0 +1,37 @@
+├── reconnaissance.py              # Fingerprinting & OS detection
+│   ├── brute_force.py                 # Brute force attacks
+│   ├── dos_attack.py                  # Denial-of-Service attack
+│   ├── phishing.py                    # Phishing attack simulation
+│   ├── sql_injection.py               # SQL Injection detection
+│   ├── mitm.py                        # Man-in-the-Middle attack
+│   ├── wireless_crack.py              # Wi-Fi password cracking
+│   ├── reverse_shell.py               # Reverse shell execution
+│   ├── ransomware_simulation.py       # Ransomware simulation
+│   ├── web_scraping.py                # Automated web reconnaissance
+│   ├── password_cracking.py           # Advanced password cracking (Hashcat, PassGAN, etc.)
+│   ├── exploit_automation.py          # Automate exploits from ExploitDB, Metasploit
+│   ├── privilege_escalation.py        # Kernel exploits, sudo misconfigurations
+│   ├── dns_spoofing.py                # DNS Spoofing Attack
+│   ├── sniffing.py                    # Packet sniffing (Scapy)
+│   ├── xss_scanner.py                 # Detect & exploit Cross-Site Scripting (XSS)
+│   ├── keylogger.py                   # Stealthy keylogger
+│   ├── s3_bucket_scanner.py           # Scan AWS S3 buckets for misconfigurations
+│   ├── ai_based_password_cracking.py  # AI/ML-assisted password guessing
+│   ├── ai_recon.py                    # AI-Based Automated Reconnaissance
+│   ├── ai_intrusion_detection.py      # AI-Based Intrusion Detection
+│   ├── ai_phishing.py                 # AI-Generated Phishing Attacks
+│   ├── ai_malware.py                  # AI-Powered Malware
+│   ├── ai_exploit.py                  # AI-Generated Exploits
+│   ├── ai_defender_bypass.py          # AI to Bypass Security Systems
+│
+├── gui/                               # GUI & Web UI
+│   ├── interface.py                   # PyQt6 GUI script
+│   ├── dashboard.py                    # Admin control panel
+│   ├── web_ui.py                       # Flask/FastAPI for remote execution
+│   ├── assets/                         # GUI assets (icons, CSS)
+│
+├── utils/                             # Utility scripts
+│   ├── parallel_execution.py          # Multiprocessing execution
+│   ├── report_generator.py            # Generate PDF reports
+│   ├── logging_manager.py             # Manages logs
+│   ├── voice_control.py    
